@@ -1,0 +1,597 @@
+# sent_id = 1
+# text = Okulun sitesini navigate etmek kolay değil.
+# type = LA
+1	Okulun	okul	NOUN	_	Case=Gen|Number=Sing|Person=3	2	nmod	_	Lang=tr
+2	sitesini	site	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	obj	_	Lang=tr
+3	navigate	navigate	NOUN	_	_	5	nsubj	_	Lang=en
+4	etmek	et	VERB	_	Case=Nom|Polarity=Pos	3	compound	_	Lang=tr
+5	kolay	kolay	ADJ	_	_	0	root	_	Lang=tr
+6	değil	değil	AUX	_	Number=Sing|Person=3|Polarity=Neg|Tense=Pres	5	aux	_	Lang=tr|SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 2
+# text = Bunu yapmak zorundayım çünkü literally my görev tanımımda yer alan bir şey.
+# type = CS
+1	Bunu	bu	PRON	_	Case=Acc|Number=Sing|Person=3	2	obj	_	Lang=tr
+2	yapmak	yap	VERB	_	Case=Nom|Polarity=Pos	3	nsubj	_	Lang=tr
+3	zorundayım	zorunda	NOUN	_	Number=Sing|Number[psor]=Sing|Person=1|Person[psor]=1	0	root	_	Lang=tr
+4	çünkü	çünkü	SCONJ	_	_	12	mark	_	Lang=tr
+5	literally	literally	ADV	_	_	12	advmod	_	Lang=en
+6	my	my	DET	_	_	8	det	_	Lang=en
+7	görev	görev	NOUN	_	Case=Nom|Number=Sing|Person=3	8	nmod	_	Lang=tr
+8	tanımımda	tanım	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	10	obl	_	Lang=tr
+9	yer	yer	NOUN	_	Case=Nom|Number=Sing|Person=3	10	compound	_	Lang=tr
+10	alan	al	VERB	_	Polarity=Pos|Tense=Pres|VerbForm=Part	12	acl	_	Lang=tr
+11	bir	bir	DET	_	_	12	det	_	Lang=tr
+12	şey	şey	NOUN	_	Case=Nom|Number=Sing|Person=3	3	conj	_	Lang=tr|SpaceAfter=No
+13	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 3
+# text = Bunun için bir toplantı alabiliriz.
+# type = LT
+1	Bunun	bu	PRON	_	Case=Gen|Number=Sing|Person=3	5	advcl	_	Lang=tr
+2	için	için	ADP	_	_	1	case	_	Lang=tr
+3	bir	bir	DET	_	_	4	det	_	Lang=tr
+4	toplantı	toplantı	NOUN	_	Case=Nom|Number=Sing|Person=3	5	compound	_	Lang=tr
+5	alabiliriz	al	VERB	_	Aspect=Imp|Mood=Pot|Number=Plur|Person=1|Polarity=Pos|Tense=Pres	0	root	_	Lang=tr|LoanTrans=en:get_a_meeting|SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 4
+# text = Terapötik duyuldu bana.
+# type = LA
+1	Terapötik	terapötik	ADV	_	_	2	xcomp	_	Lang=tr
+2	duyuldu	duy	VERB	_	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	0	root	_	Lang=tr
+3	bana	ben	PRON	_	Case=Dat|Number=Sing|Person=1	2	obl	_	Lang=tr|SpaceAfter=No
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 5
+# text = Nasıl hissediyor ayağın?
+# type = LT
+1	Nasıl	nasıl	ADV	_	_	2	advmod	_	Lang=tr
+2	hissediyor	hisset	VERB	_	Aspect=Prog|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	0	root	_	Lang=tr|LoanTrans=en:how_does_it_feel
+3	ayağın	ayak	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=2	2	nsubj	_	Lang=tr|SpaceAfter=No
+4	?	?	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 6
+# text = Bunda da on the same page olmayız yani!
+# type = CS
+1	Bunda	bu	PRON	_	Case=Loc|Number=Sing|Person=3	7	obl	_	Lang=tr
+2	da	da	CCONJ	_	_	1	advmod	_	Lang=tr
+3	on	on	ADP	_	_	6	compound	_	Lang=en
+4	the	the	DET	_	_	6	det	_	Lang=en
+5	same	same	ADJ	_	_	6	amod	_	Lang=en
+6	page	page	NOUN	_	_	7	compound	_	Lang=en
+7	olmayız	ol	VERB	_	Aspect=Imp|Number=Plur|Person=1|Polarity=Neg|Tense=Pres	0	root	_	Lang=tr
+8	yani	yani	CCONJ	_	_	7	discourse	_	Lang=tr|SpaceAfter=No
+9	!	!	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 7
+# text = Derse çıkmadan bir KK'ya drop-bylayacağım, görüşürüz!
+# type = LA
+1	Derse	ders	NOUN	_	Case=Dat|Number=Sing|Person=3	2	obl	_	Lang=tr
+2	çıkmadan	çık	VERB	_	Case=Abl|Polarity=Pos|VerbForm=Conv	5	advcl	_	Lang=tr
+3	bir	bir	DET	_	_	4	det	_	Lang=tr
+4	KK'ya	KK	PROPN	_	Case=Dat|Number=Sing|Person=3	5	obl	_	Lang=tr
+5	drop-bylayacağım	drop-by	VERB	_	Aspect=Perf|Number=Sing|Person=1|Polarity=Pos|Tense=Fut	0	root	_	Lang=tr|CSID=MIXED|CSPoint=drop-by§layacağım|SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	görüşürüz	görüş	VERB	_	Aspect=Imp|Number=Plur|Person=1|Polarity=Pos|Tense=Pres	5	parataxis	_	Lang=tr|SpaceAfter=No
+8	!	!	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 8
+# text = Bir şey diyeceğim bence he doesn't deserve this.
+# type = CS
+1	Bir	bir	DET	_	_	2	det	_	Lang=tr
+2	şey	şey	NOUN	_	Case=Nom|Number=Sing|Person=3	3	obj	_	Lang=tr
+3	diyeceğim	de	VERB	_	Aspect=Perf|Number=Sing|Person=1|Polarity=Pos|Tense=Fut	0	root	_	Lang=tr
+4	bence	ben	PRON	_	Case=Equ|Number=Sing|Person=1	7	discourse	_	Lang=tr
+5	he	he	PRON	_	_	7	nsubj	_	Lang=en
+6	doesn't	do	AUX	_	_	7	aux	_	Lang=en
+7	deserve	deserve	VERB	_	_	3	parataxis	_	Lang=en
+8	this	this	PRON	_	_	7	obj	_	Lang=en|SpaceAfter=No
+9	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 9
+# text = Sizce de üslubu kinda harsh değil mi?
+# type = CS
+1	Sizce	siz	PRON	_	Case=Nom|Number=Plur|Person=2	5	discourse	_	Lang=tr
+2	de	de	CCONJ	_	_	1	advmod	_	Lang=tr
+3	üslubu	üslup	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	nsubj	_	Lang=tr
+4	kinda	kinda	ADV	_	_	5	advmod	_	Lang=en
+5	harsh	harsh	ADJ	_	_	0	root	_	Lang=en
+6	değil	değil	AUX	_	Number=Sing|Person=3|Polarity=Neg	5	aux	_	Lang=tr
+7	mi	mi	AUX	_	_	5	aux	_	Lang=tr|SpaceAfter=No
+8	?	?	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 10
+# text = Cem Yılmaz yapsa I would laugh yani.
+# type = CS
+1	Cem	Cem	PROPN	_	Case=Nom|Number=Sing|Person=3	3	nsubj	_	Lang=tr
+2	Yılmaz	Yılmaz	PROPN	_	Case=Nom|Number=Sing|Person=3	1	flat	_	Lang=tr
+3	yapsa	yap	VERB	_	Mood=Cnd|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	6	advcl	_	Lang=tr
+4	I	I	PRON	_	_	6	nsubj	_	Lang=en
+5	would	would	AUX	_	_	6	aux	_	Lang=en
+6	laugh	laugh	VERB	_	_	0	root	_	Lang=en
+7	yani	yani	CCONJ	_	_	6	discourse	_	Lang=tr|SpaceAfter=No
+8	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 11
+# text = Çok kalabalık olacağı gerçeği beni turn-offluyor.
+# type = LA
+1	Çok	çok	ADV	_	_	2	advmod	_	Lang=tr
+2	kalabalık	kalabalık	ADJ	_	_	3	amod	_	Lang=tr
+3	olacağı	ol	VERB	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|Tense=Fut|VerbForm=Part	4	nmod	_	Lang=tr
+4	gerçeği	gerçek	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	nsubj	_	Lang=tr|LoanTrans=en:the_fact_that
+5	beni	ben	PRON	_	Case=Acc|Number=Sing|Person=1	6	obj	_	Lang=tr
+6	turn-offluyor	turn-off	VERB	_	Aspect=Prog|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	0	root	_	Lang=tr|CSID=MIXED|CSPoint=turn-off§luyor|SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 12
+# text = Me flirting but doing this in a artık flörtleşmek istemiyorum kinda way.
+# type = CS
+1	Me	I	PRON	_	_	2	nsubj	_	Lang=en
+2	flirting	flirt	VERB	_	_	0	root	_	Lang=en
+3	but	but	CCONJ	_	_	4	cc	_	Lang=en
+4	doing	do	VERB	_	_	2	conj	_	Lang=en
+5	this	this	PRON	_	_	4	obj	_	Lang=en
+6	in	in	ADP	_	_	12	case	_	Lang=en
+7	a	a	DET	_	_	12	det	_	Lang=en
+8	artık	artık	ADV	_	_	10	advmod	_	Lang=tr
+9	flörtleşmek	flörtleş	VERB	_	Case=Nom|Polarity=Pos|VerbForm=Vnoun	10	obj	_	Lang=tr
+10	istemiyorum	iste	VERB	_	Aspect=Prog|Number=Sing|Person=1|Polarity=Neg|Tense=Pres	11	amod	_	Lang=tr
+11	kinda	kinda	ADV	_	_	12	advmod	_	Lang=en
+12	way	way	NOUN	_	_	4	obl	_	Lang=en|SpaceAfter=No
+13	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 13
+# text = Vending machinelerden nefret ediyorum.
+# type = LA
+1	Vending	vending	NOUN	_	_	2	compound	_	Lang=en
+2	machinelerden	machine	NOUN	_	Case=Abl|Number=Plur	4	obj	_	Lang=tr|CSID=MIXED|CSPoint=machine§lerden
+3	nefret	nefret	NOUN	_	Case=Nom|Number=Sing|Person=3	4	compound	_	Lang=tr
+4	ediyorum	et	VERB	_	Aspect=Prog|Number=Sing|Person=1|Polarity=Pos|Tense=Pres	0	root	_	Lang=tr|SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 14
+# text = Ama çok tatlı ve süper biri so unproblematic and funny.
+# type = CS
+1	Ama	ama	CCONJ	_	_	6	discourse	_	Lang=tr
+2	çok	çok	ADV	_	_	3	advmod	_	Lang=tr
+3	tatlı	tatlı	ADJ	_	_	6	amod	_	Lang=tr
+4	ve	ve	CCONJ	_	_	3	cc	_	Lang=tr
+5	süper	süper	ADJ	_	_	3	conj	_	Lang=tr
+6	biri	bir	PRON	_	Case=Nom|Number=Sing|Person=3	0	root	_	Lang=tr
+7	so	so	ADV	_	_	8	advmod	_	Lang=en
+8	unproblematic	unproblematic	ADJ	_	_	6	parataxis	_	Lang=en
+9	and	and	CCONJ	_	_	10	cc	_	Lang=en
+10	funny	funny	ADJ	_	_	8	conj	_	Lang=en|SpaceAfter=No
+11	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 15
+# text = Other aspectlere değinemiyoruz.
+# type = LA
+1	Other	other	DET	_	_	2	det	_	Lang=en
+2	aspectlere	aspect	NOUN	_	Case=Dat|Number=Plur	3	obj	_	Lang=tr|CSID=MIXED|CSPoint=aspect§lere
+3	değinemiyoruz	değin	VERB	_	Aspect=Prog|Number=Plur|Person=1|Polarity=Neg|Tense=Pres	0	root	_	Lang=tr|SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 16
+# text = Şarkıyı sevdim, ama çok sad.
+# type = CS
+1	Şarkıyı	şarkı	NOUN	_	Case=Acc|Number=Sing|Person=3	2	obj	_	Lang=tr
+2	sevdim	sev	VERB	_	Aspect=Perf|Number=Sing|Person=1|Polarity=Pos|Tense=Past	0	root	_	Lang=tr|SpaceAfter=No
+3	,	,	PUNCT	_	_	6	punct	_	_
+4	ama	ama	CCONJ	_	_	6	cc	_	Lang=tr
+5	çok	çok	ADV	_	_	6	advmod	_	Lang=tr
+6	sad	sad	ADJ	_	_	2	conj	_	Lang=en|SpaceAfter=No
+7	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 17
+# text = Clear bir distinction yok zaten.
+# type = CS
+1	Clear	clear	ADJ	_	_	3	amod	_	Lang=en
+2	bir	bir	DET	_	_	3	det	_	Lang=tr
+3	distinction	distinction	NOUN	_	Number=Sing	4	nsubj	_	Lang=en
+4	yok	yok	ADJ	_	_	0	root	_	Lang=tr
+5	zaten	zaten	ADV	_	_	4	advmod	_	Lang=tr|SpaceAfter=No
+6	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 18
+# text = Depends, hangi kayak?
+# type = CS
+1	Depends	depend	VERB	_	Number=Sing|Person=3|Tense=Pres	0	root	_	Lang=en|SpaceAfter=No
+2	,	,	PUNCT	_	_	4	punct	_	_
+3	hangi	hangi	DET	_	_	4	det	_	Lang=tr
+4	kayak	kayak	NOUN	_	Case=Nom|Number=Sing|Person=3	1	parataxis	_	Lang=tr|SpaceAfter=No
+5	?	?	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 19
+# text = All of a sudden sevgilimle kavga ettim.
+# type = CS
+1	All	all	DET	_	ExtPos=ADV	7	advmod	_	Lang=en
+2	of	of	ADP	_	_	1	fixed	_	Lang=en
+3	a	a	DET	_	_	1	fixed	_	Lang=en
+4	sudden	sudden	ADJ	_	_	1	fixed	_	Lang=en
+5	sevgilimle	sevgili	NOUN	_	Case=Ins|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	7	obl	_	Lang=tr
+6	kavga	kavga	NOUN	_	Case=Nom|Number=Sing|Person=3	7	compound	_	Lang=tr
+7	ettim	et	VERB	_	Aspect=Perf|Number=Sing|Person=1|Polarity=Pos|Tense=Past	0	root	_	Lang=tr|SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 20
+# text = Go for it o zaman.
+# type = CS
+1	Go	go	VERB	_	Mood=Imp|Person=2|VerbForm=Fin	0	root	_	Lang=en
+2	for	for	ADP	_	_	3	case	_	Lang=en
+3	it	it	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3	1	obl	_	Lang=en
+4	o	o	DET	_	_	5	det	_	Lang=tr
+5	zaman	zaman	NOUN	_	Case=Nom|Number=Sing|Person=3	1	discourse	_	Lang=tr|SpaceAfter=No
+6	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 21
+# text = Guys, I think çok fena bir şey oldu.
+# type = CS
+1	Guys	guy	NOUN	_	Number=Plur	3	discourse	_	Lang=en|SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	I	I	PRON	_	Case=Nom|Number=Sing|Person=1	4	nsubj	_	Lang=en
+4	think	think	VERB	_	Number=Sing|Person=1|Tense=Pres	0	root	_	Lang=en
+5	çok	çok	ADV	_	_	6	advmod	_	Lang=tr
+6	fena	fena	ADJ	_	_	8	amod	_	Lang=tr
+7	bir	bir	DET	_	_	8	det	_	Lang=tr
+8	şey	şey	NOUN	_	Case=Nom|Number=Sing|Person=3	9	nsubj	_	Lang=tr
+9	oldu	ol	VERB	_	Aspect=Perf|Number=Sing|Person=3|Polarity=Pos|Tense=Past	4	ccomp	_	Lang=tr|SpaceAfter=No
+10	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 22
+# text = Canım, akşam çıkıyoruz, you coming right?
+# type = CS
+1	Canım	can	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	3	discourse	_	Lang=tr|SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	akşam	akşam	NOUN	_	Case=Nom|Number=Sing|Person=3	4	obl	_	Lang=tr
+4	çıkıyoruz	çık	VERB	_	Aspect=Prog|Number=Plur|Person=1|Polarity=Pos|Tense=Pres	0	root	_	Lang=tr|SpaceAfter=No
+5	,	,	PUNCT	_	_	7	punct	_	_
+6	you	you	PRON	_	Case=Nom|Person=2	7	nsubj	_	Lang=en
+7	coming	come	VERB	_	Tense=Pres|VerbForm=Part	4	parataxis	_	Lang=en
+8	right	right	ADJ	_	_	7	discourse	_	Lang=en|SpaceAfter=No
+9	?	?	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 23
+# text = Bu hiç acceptable değil yani.
+# type = CS
+1	Bu	bu	PRON	_	Case=Nom|Number=Sing|Person=3	3	nsubj	_	Lang=tr
+2	hiç	hiç	ADV	_	_	3	advmod	_	Lang=tr
+3	acceptable	acceptable	ADJ	_	_	0	root	_	Lang=en
+4	değil	değil	AUX	_	Number=Sing|Person=3|Polarity=Neg|Tense=Pres	3	aux	_	Lang=tr
+5	yani	yani	CCONJ	_	_	3	discourse	_	Lang=tr|SpaceAfter=No
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 24
+# text = Seems like bu gece burada uyuyacağız.
+# type = CS
+1	Seems	seem	VERB	_	Number=Sing|Person=3|Tense=Pres	0	root	_	Lang=en
+2	like	like	SCONJ	_	_	6	mark	_	Lang=en
+3	bu	bu	DET	_	_	4	det	_	Lang=tr
+4	gece	gece	NOUN	_	Case=Nom|Number=Sing|Person=3	6	obl	_	Lang=tr
+5	burada	bura	PRON	_	Case=Loc|Number=Sing|Person=3	6	obl	_	Lang=tr
+6	uyuyacağız	uyu	VERB	_	Aspect=Perf|Number=Plur|Person=1|Polarity=Pos|Tense=Fut	1	ccomp	_	Lang=tr|SpaceAfter=No
+7	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 25
+# text = Ben boynumu iki saniye stretch etmeye başlasam my head starts spinning.
+# type = CS
+1	Ben	ben	PRON	_	Case=Nom|Number=Sing|Person=1	6	nsubj	_	Lang=tr
+2	boynumu	boyun	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	5	obj	_	Lang=tr
+3	iki	iki	NUM	_	NumType=Card	4	nummod	_	Lang=tr
+4	saniye	saniye	NOUN	_	Case=Nom|Number=Sing|Person=3	5	obl	_	Lang=tr
+5	stretch	stretch	NOUN	_	_	6	compound	_	Lang=en
+6	etmeye	et	VERB	_	Case=Dat|Polarity=Pos|VerbForm=Vnoun	7	xcomp	_	Lang=tr
+7	başlasam	başla	VERB	_	Mood=Cnd|Number=Sing|Person=1|Polarity=Pos	10	advcl	_	Lang=tr
+8	my	my	DET	_	_	9	det	_	Lang=en
+9	head	head	NOUN	_	Number=Sing	10	nsubj	_	Lang=en
+10	starts	start	VERB	_	Number=Sing|Person=3|Tense=Pres	0	root	_	Lang=en
+11	spinning	spin	VERB	_	Tense=Pres|VerbForm=Part	10	xcomp	_	Lang=en|SpaceAfter=No
+12	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 26
+# text = Yemişsin, katletmişsin.
+# type = LT
+1	Yemişsin	ye	VERB	_	Aspect=Perf|Evident=Nfh|Number=Sing|Person=2|Polarity=Pos|Tense=Past	0	root	_	Lang=tr|LoanTrans=en:you_ate|SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	katletmişsin	katlet	VERB	_	Aspect=Perf|Evident=Nfh|Number=Sing|Person=2|Polarity=Pos|Tense=Past	1	conj	_	Lang=tr|LoanTrans=en:you_slayed|SpaceAfter=No
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 27
+# text = Gel study eyleyelim.
+# type = LA
+1	Gel	gel	VERB	_	Mood=Imp|Number=Sing|Person=2|Polarity=Pos	3	discourse	_	Lang=tr
+2	study	study	NOUN	_	_	3	compound	_	Lang=en
+3	eyleyelim	eyle	VERB	_	Mood=Opt|Number=Plur|Person=1|Polarity=Pos|Tense=Pres	0	root	_	Lang=tr|SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 28
+# text = That's crazy, keşke önceden söyleseydin.
+# type = CS
+1	That's	that	PRON	_	_	2	nsubj	_	Lang=en
+2	crazy	crazy	ADJ	_	_	0	root	_	Lang=en|SpaceAfter=No
+3	,	,	PUNCT	_	_	6	punct	_	_
+4	keşke	keşke	ADV	_	_	6	advmod	_	Lang=tr
+5	önceden	önce	ADV	_	Case=Abl	6	advmod	_	Lang=tr
+6	söyleseydin	söyle	VERB	_	Mood=Cnd|Number=Sing|Person=2|Polarity=Pos|Tense=Past	2	parataxis	_	Lang=tr|SpaceAfter=No
+7	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 29
+# text = Just şöyle yapsana.
+# type = CS
+1	Just	just	ADV	_	_	3	advmod	_	Lang=en
+2	şöyle	şöyle	ADV	_	_	3	advmod	_	Lang=tr
+3	yapsana	yap	VERB	_	Mood=Imp|Number=Sing|Person=2|Polarity=Pos	0	root	_	Lang=tr|SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 30
+# text = Of course metroyla gideceğiz, yürüyecek değiliz ya o kadar yolu!
+# type = CS
+1	Of	of	ADP	_	ExtPos=ADV	4	discourse	_	Lang=en
+2	course	course	NOUN	_	_	1	fixed	_	Lang=en
+3	metroyla	metro	NOUN	_	Case=Ins|Number=Sing|Person=3	4	obl	_	Lang=tr
+4	gideceğiz	git	VERB	_	Aspect=Perf|Number=Plur|Person=1|Polarity=Pos|Tense=Fut	0	root	_	Lang=tr|SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	_
+6	yürüyecek	yürü	VERB	_	Case=Nom|Polarity=Pos|Tense=Fut|VerbForm=Part	4	parataxis	_	Lang=tr
+7	değiliz	değil	AUX	_	Number=Plur|Person=1|Polarity=Neg|Tense=Pres	6	aux	_	Lang=tr
+8	ya	ya	PART	_	_	6	discourse	_	Lang=tr
+9	o	o	PRON	_	Case=Nom|Number=Sing|PronType=Dem	11	nmod	_	Lang=tr
+10	kadar	kadar	ADP	_	_	9	case	_	Lang=tr
+11	yolu	yol	NOUN	_	Case=Acc|Number=Sing|Person=3	6	obj	_	Lang=tr|SpaceAfter=No
+12	!	!	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 31
+# text = Dünyanın en çirkin clothing itemıyla karşı karşıyayım, lord have mercy.
+# type = CS
+1	Dünyanın	dünya	NOUN	_	Case=Gen|Number=Sing|Person=3	5	nmod	_	Lang=tr
+2	en	en	ADV	_	_	3	advmod	_	Lang=tr
+3	çirkin	çirkin	ADJ	_	_	5	amod	_	Lang=tr
+4	clothing	clothing	NOUN	_	_	5	compound	_	Lang=en
+5	itemıyla	item	NOUN	_	Case=Ins|Number=Sing	6	obl	_	Lang=tr|CSID=MIXED|CSPoint=item§ıyla
+6	karşı	karşı	ADJ	_	ExtPos=ADJ	0	root	_	Lang=tr
+7	karşıyayım	karşı	ADJ	_	Number=Sing|Person=1	6	fixed	_	Lang=tr|SpaceAfter=No
+8	,	,	PUNCT	_	_	10	punct	_	_
+9	lord	lord	NOUN	_	Number=Sing	10	nsubj	_	Lang=en
+10	have	have	VERB	_	_	6	parataxis	_	Lang=en
+11	mercy	mercy	NOUN	_	Number=Sing	10	obj	_	Lang=en|SpaceAfter=No
+12	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 32
+# text = Bro literally dedi ki görüşmek istemiyormuş.
+# type = CS
+1	Bro	bro	NOUN	_	Number=Sing	3	nsubj	_	Lang=en
+2	literally	literally	ADV	_	_	3	advmod	_	Lang=en
+3	dedi	de	VERB	_	Aspect=Perf|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	Lang=tr
+4	ki	ki	SCONJ	_	_	6	mark	_	Lang=tr
+5	görüşmek	görüş	VERB	_	Case=Nom|Polarity=Pos|VerbForm=Vnoun	6	obj	_	Lang=tr
+6	istemiyormuş	iste	VERB	_	Aspect=Imp|Evident=Nfh|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	3	ccomp	_	Lang=tr|SpaceAfter=No
+7	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 33
+# text = Allah seni beni tempt eyle diye mi gönderdi?
+# type = LA
+1	Allah	Allah	PROPN	_	Case=Nom|Number=Sing|Person=3	8	nsubj	_	Lang=tr
+2	seni	sen	PRON	_	Case=Acc|Number=Sing|Person=2	8	obj	_	Lang=tr
+3	beni	ben	PRON	_	Case=Acc|Number=Sing|Person=1	4	obj	_	Lang=tr
+4	tempt	tempt	NOUN	_	_	5	compound	_	Lang=en
+5	eyle	eyle	VERB	_	Mood=Imp|Number=Sing|Person=2|Polarity=Pos	8	advcl	_	Lang=tr
+6	diye	diye	SCONJ	_	_	5	mark	_	Lang=tr
+7	mi	mi	AUX	_	_	8	aux	_	Lang=tr
+8	gönderdi	gönder	VERB	_	Aspect=Perf|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	Lang=tr|SpaceAfter=No
+9	?	?	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 34
+# text = Kaşarlı gözlemede settle down ettim.
+# type = LA
+1	Kaşarlı	kaşarlı	ADJ	_	_	2	amod	_	Lang=tr
+2	gözlemede	gözleme	NOUN	_	Case=Loc|Number=Sing|Person=3	4	obl	_	Lang=tr
+3	settle	settle	NOUN	_	_	4	compound	_	Lang=en
+4	down	down	NOUN	_	_	5	compound	_	Lang=en
+5	ettim	et	VERB	_	Aspect=Perf|Number=Sing|Person=1|Polarity=Pos|Tense=Past	0	root	_	Lang=tr|SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 35
+# text = Kanka legit nerede Daktilo?
+# type = CS
+1	Kanka	kanka	NOUN	_	Case=Nom|Number=Sing|Person=3	3	discourse	_	Lang=tr
+2	legit	legit	ADV	_	_	3	advmod	_	Lang=en
+3	nerede	nere	PRON	_	Case=Loc	0	root	_	Lang=tr
+4	Daktilo	Daktilo	PROPN	_	Case=Nom|Number=Sing|Person=3	3	nsubj	_	Lang=tr|SpaceAfter=No
+5	?	?	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 36
+# text = Hoca biraz tricky şeyler sormaya çalışıyor gibi geldi.
+# type = CS
+1	Hoca	hoca	NOUN	_	Case=Nom|Number=Sing|Person=3	6	nsubj	_	Lang=tr
+2	biraz	biraz	ADV	_	_	3	advmod	_	Lang=tr
+3	tricky	tricky	ADJ	_	_	4	amod	_	Lang=en
+4	şeyler	şey	NOUN	_	Case=Nom|Number=Plur|Person=3	5	obj	_	Lang=tr
+5	sormaya	sor	VERB	_	Case=Dat|Polarity=Pos|VerbForm=Vnoun	6	xcomp	_	Lang=tr
+6	çalışıyor	çalış	VERB	_	Aspect=Prog|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	8	ccomp	_	Lang=tr
+7	gibi	gibi	SCONJ	_	_	6	mark	_	Lang=tr
+8	geldi	gel	VERB	_	Aspect=Perf|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	Lang=tr|SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 37
+# text = Kafamda kira vermeden yaşayan bir numaralı Kazım Koyuncu şarkısı.
+# type = LT
+1	Kafamda	kafa	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	4	obl	_	Lang=tr|LoanTrans=en:in_my_head
+2	kira	kira	NOUN	_	Case=Nom|Number=Sing|Person=3	3	compound	_	Lang=tr
+3	vermeden	ver	VERB	_	Case=Abl|Polarity=Neg|VerbForm=Conv	4	advcl	_	Lang=tr|LoanTrans=en:without_paying_rent
+4	yaşayan	yaşa	VERB	_	Polarity=Pos|Tense=Pres|VerbForm=Part	9	acl	_	Lang=tr|LoanTrans=en:living_rent_free
+5	bir	bir	NUM	_	NumType=Card	6	nummod	_	Lang=tr
+6	numaralı	numara	NOUN	_	Case=Nom|Number=Sing|Person=3	9	amod	_	Lang=tr
+7	Kazım	Kazım	PROPN	_	Case=Nom|Number=Sing|Person=3	9	nmod	_	Lang=tr
+8	Koyuncu	Koyuncu	PROPN	_	Case=Nom|Number=Sing|Person=3	7	flat	_	Lang=tr
+9	şarkısı	şarkı	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	0	root	_	Lang=tr|SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 38
+# text = Aklıma random bir soru geldi.
+# type = CS
+1	Aklıma	akıl	NOUN	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	5	compound	_	Lang=tr
+2	random	random	ADJ	_	_	4	amod	_	Lang=en
+3	bir	bir	DET	_	_	4	det	_	Lang=tr
+4	soru	soru	NOUN	_	Case=Nom|Number=Sing|Person=3	5	nsubj	_	Lang=tr
+5	geldi	gel	VERB	_	Aspect=Perf|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	Lang=tr|SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 39
+# text = Biraz, but like, çok aile üzerine giden bir diziydi.
+# type = CS
+1	Biraz	biraz	ADV	_	_	9	advmod	_	Lang=tr|SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	but	but	CCONJ	_	_	1	discourse	_	Lang=en
+4	like	like	ADV	_	_	3	advmod	_	Lang=en|SpaceAfter=No
+5	,	,	PUNCT	_	_	3	punct	_	_
+6	çok	çok	ADV	_	_	9	advmod	_	Lang=tr
+7	aile	aile	NOUN	_	Case=Nom|Number=Sing|Person=3	8	nmod	_	Lang=tr
+8	üzerine	üzeri	NOUN	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	obl	_	Lang=tr
+9	giden	git	VERB	_	Polarity=Pos|Tense=Pres|VerbForm=Part	11	acl	_	Lang=tr
+10	bir	bir	DET	_	_	11	det	_	Lang=tr
+11	diziydi	dizi	NOUN	_	Case=Nom|Number=Sing|Person=3	0	root	_	Lang=tr|SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 40
+# text = Soggyleşmiş bu ya.
+# type = LA
+1	Soggyleşmiş	soggyleş	VERB	_	Aspect=Perf|Evident=Nfh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	Lang=tr|CSID=MIXED|CSPoint=soggy§leşmiş
+2	bu	bu	PRON	_	Case=Nom|Number=Sing|Person=3	1	nsubj	_	Lang=tr
+3	ya	ya	PART	_	_	1	discourse	_	Lang=tr|SpaceAfter=No
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 41
+# text = Didar Hoca'nın dersini düşürmedim.
+# type = LT
+1	Didar	Didar	PROPN	_	Case=Nom|Number=Sing|Person=3	3	nmod	_	Lang=tr
+2	Hoca'nın	hoca	NOUN	_	Case=Gen|Number=Sing|Person=3	1	flat	_	Lang=tr
+3	dersini	ders	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	obj	_	Lang=tr
+4	düşürmedim	düşür	VERB	_	Aspect=Perf|Number=Sing|Person=1|Polarity=Neg|Tense=Past	0	root	_	Lang=tr|LoanTrans=en:drop_a_course|SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 42
+# text = Çok düşünmezsen üstüne bu gayet perfectly fine.
+# type = CS
+1	Çok	çok	ADV	_	_	2	advmod	_	Lang=tr
+2	düşünmezsen	düşün	VERB	_	Aspect=Hab|Mood=Cnd|Number=Sing|Person=2|Polarity=Neg|Tense=Pres	7	advcl	_	Lang=tr
+3	üstüne	üst	NOUN	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	2	obl	_	Lang=tr
+4	bu	bu	PRON	_	Case=Nom|Number=Sing|Person=3	7	nsubj	_	Lang=tr
+5	gayet	gayet	ADV	_	_	7	advmod	_	Lang=tr
+6	perfectly	perfectly	ADV	_	_	7	advmod	_	Lang=en
+7	fine	fine	ADJ	_	_	0	root	_	Lang=en|SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 43
+# text = Let's not go there bence.
+# type = CS
+1	Let's	let	VERB	_	Mood=Imp|Person=1|VerbForm=Fin	0	root	_	Lang=en
+2	not	not	PART	_	Polarity=Neg	1	advmod	_	Lang=en
+3	go	go	VERB	_	VerbForm=Inf	1	xcomp	_	Lang=en
+4	there	there	ADV	_	_	3	advmod	_	Lang=en
+5	bence	ben	PRON	_	Case=Equ|Number=Sing|Person=1	1	discourse	_	Lang=tr|SpaceAfter=No
+6	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 44
+# text = How about Cumartesi?
+# type = CS
+1	How	how	ADV	_	_	0	root	_	Lang=en
+2	about	about	ADP	_	_	3	case	_	Lang=en
+3	Cumartesi	Cumartesi	PROPN	_	Case=Nom|Number=Sing|Person=3	1	obl	_	Lang=tr|SpaceAfter=No
+4	?	?	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 45
+# text = Bana bitching price bill edecek misin?
+# type = CS
+1	Bana	ben	PRON	_	Case=Dat|Number=Sing|Person=1	5	obl	_	Lang=tr
+2	bitching	bitch	VERB	_	Tense=Pres|VerbForm=Part	3	nmod	_	Lang=en
+3	price	price	NOUN	_	Number=Sing	4	obj	_	Lang=en
+4	bill	bill	NOUN	_	_	5	compound	_	Lang=en
+5	edecek	et	VERB	_	Aspect=Prosp|Number=Sing|Person=3|Polarity=Pos|Tense=Fut	0	root	_	Lang=tr
+6	misin	mi	AUX	_	Number=Sing|Person=2	5	aux	_	Lang=tr|SpaceAfter=No
+7	?	?	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 46
+# text = Ben hiçbir hocayı bu terimlerde bilmiyorum.
+# type = LT
+1	Ben	ben	PRON	_	Case=Nom|Number=Sing|Person=1	6	nsubj	_	Lang=tr
+2	hiçbir	hiçbir	DET	_	_	3	det	_	Lang=tr
+3	hocayı	hoca	NOUN	_	Case=Acc|Number=Sing|Person=3	6	obj	_	Lang=tr
+4	bu	bu	DET	_	_	5	det	_	Lang=tr
+5	terimlerde	terim	NOUN	_	Case=Loc|Number=Plur|Person=3	6	obl	_	Lang=tr|LoanTrans=en:in_these_terms
+6	bilmiyorum	bil	VERB	_	Aspect=Prog|Number=Sing|Person=1|Polarity=Neg|Tense=Pres	0	root	_	Lang=tr|LoanTrans=en:know_someone_in_these_terms|SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 47
+# text = You're not supposed to onu yapmak bu arada.
+# type = CS
+1	You're	you	PRON	_	_	3	nsubj	_	Lang=en
+2	not	not	PART	_	Polarity=Neg	3	advmod	_	Lang=en
+3	supposed	suppose	VERB	_	Tense=Past|VerbForm=Part	0	root	_	Lang=en
+4	to	to	PART	_	_	6	mark	_	Lang=en
+5	onu	o	PRON	_	Case=Acc|Number=Sing|Person=3	6	obj	_	Lang=tr
+6	yapmak	yap	VERB	_	Case=Nom|Polarity=Pos|VerbForm=Vnoun	3	xcomp	_	Lang=tr
+7	bu	bu	DET	_	_	8	det	_	Lang=tr
+8	arada	ara	NOUN	_	Case=Loc|Number=Sing|Person=3	3	discourse	_	Lang=tr|SpaceAfter=No
+9	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 48
+# text = Biraz geniş for my taste.
+# type = CS
+1	Biraz	biraz	ADV	_	_	2	advmod	_	Lang=tr
+2	geniş	geniş	ADJ	_	_	0	root	_	Lang=tr
+3	for	for	ADP	_	_	5	case	_	Lang=en
+4	my	my	DET	_	_	5	det	_	Lang=en
+5	taste	taste	NOUN	_	Number=Sing	2	obl	_	Lang=en|SpaceAfter=No
+6	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 49
+# text = Birinin utter ettiğine emin olduğunuz iki cümle.
+# type = CS
+1	Birinin	biri	PRON	_	Case=Gen|Number=Sing|Person=3	3	nsubj	_	Lang=tr
+2	utter	utter	NOUN	_	_	3	compound	_	Lang=en
+3	ettiğine	et	VERB	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	5	obl	_	Lang=tr
+4	emin	emin	ADJ	_	_	5	compound	_	Lang=tr
+5	olduğunuz	ol	VERB	_	Number=Plur|Person=2|Polarity=Pos|Tense=Past|VerbForm=Part	7	acl	_	Lang=tr
+6	iki	iki	NUM	_	NumType=Card	7	nummod	_	Lang=tr
+7	cümle	cümle	NOUN	_	Case=Nom|Number=Sing|Person=3	0	root	_	Lang=tr|SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 50
+# text = I know own a saç tokası w plastic decorations next to it a mendil and a pink barbie hat.
+# type = CS
+1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1	3	nsubj	_	Lang=en
+2	know	now	ADV	_	Typo=Yes	3	advmod	_	Lang=en
+3	own	own	VERB	_	Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	Lang=en
+4	a	a	DET	_	_	6	det	_	Lang=en
+5	saç	saç	NOUN	_	Case=Nom|Number=Sing|Person=3	6	compound	_	Lang=tr
+6	tokası	toka	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	obj	_	Lang=tr
+7	w	with	ADP	_	_	9	case	_	Lang=en
+8	plastic	plastic	ADJ	_	_	9	amod	_	Lang=en
+9	decorations	decoration	NOUN	_	Number=Plur	6	nmod	_	Lang=en
+10	next	next	ADJ	_	_	6	advmod	_	Lang=en
+11	to	to	ADP	_	_	12	case	_	Lang=en
+12	it	it	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3	10	obl	_	Lang=en
+13	a	a	DET	_	_	14	det	_	Lang=en
+14	mendil	mendil	NOUN	_	Case=Nom|Number=Sing|Person=3	3	obj	_	Lang=tr
+15	and	and	CCONJ	_	_	19	cc	_	Lang=en
+16	a	a	DET	_	_	19	det	_	Lang=en
+17	pink	pink	ADJ	_	_	19	amod	_	Lang=en
+18	barbie	barbie	PROPN	_	Number=Sing	19	compound	_	Lang=en
+19	hat	hat	NOUN	_	Number=Sing	14	conj	_	Lang=en|SpaceAfter=No
+20	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 51
+# text = i thought u meşgule attın bc u were texting ceren
+# type = CS
+1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1	2	nsubj	_	Lang=en
+2	thought	think	VERB	_	Tense=Past|VerbForm=Fin	0	root	_	Lang=en
+3	u	you	PRON	_	Case=Nom|Person=2	5	nsubj	_	Lang=en
+4	meşgule	meşgul	NOUN	_	Case=Dat|Number=Sing|Person=3	5	obl	_	Lang=tr
+5	attın	at	VERB	_	Aspect=Perf|Number=Sing|Person=2|Polarity=Pos|Tense=Past	2	ccomp	_	Lang=tr
+6	bc	because	SCONJ	_	_	9	mark	_	Lang=en
+7	u	you	PRON	_	Case=Nom|Person=2	9	nsubj	_	Lang=en
+8	were	be	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	9	aux	_	Lang=en
+9	texting	text	VERB	_	Tense=Pres|VerbForm=Part	5	advcl	_	Lang=en
+10	ceren	Ceren	PROPN	_	Case=Nom|Number=Sing|Person=3	9	obj	_	Lang=tr
+

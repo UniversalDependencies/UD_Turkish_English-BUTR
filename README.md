@@ -2,11 +2,9 @@
 
 ... 1-2 sentences (see [release checklist](http://universaldependencies.org/release_checklist.html#the-readme-file) for README guidelines) ...
 
-
 # Introduction
 
 ...
-
 
 # Acknowledgments
 
@@ -16,12 +14,10 @@
 
 * (citation)
 
-
 # Changelog
 
 * 2025-05-15 v2.16
   * Initial release in Universal Dependencies.
-
 
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
@@ -34,7 +30,7 @@ UPOS: manual native
 XPOS: not available
 Features: manual native
 Relations: manual native
-Contributors: Akkurt, Furkan; Sampanis, Konstantinos; Teker, Nursena; Binici, Helin
+Contributors: Akkurt, Furkan; Teker, Nursena; Binici, Helin; Demir, Ahmet; Sampanis, Konstantinos
 Contributing: here
 Contact: furkanakkurt7242@icloud.com
 ===============================================================================
