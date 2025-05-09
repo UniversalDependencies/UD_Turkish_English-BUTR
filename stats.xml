@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank>
+  <!-- tokens means "surface tokens", e.g. Spanish "vámonos" counts as one token
+       words means "syntactic words", e.g. Spanish "vámonos" is split to two words, "vamos" and "nos"
+       fused is the number of tokens that are split to two or more syntactic words
+       The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
+  <size>
+    <total><sentences>51</sentences><tokens>393</tokens><words>393</words><fused>0</fused></total>
+    <train><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></train>
+    <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
+    <test><sentences>51</sentences><tokens>393</tokens><words>393</words><fused>0</fused></test>
+  </size>
+  <lemmas unique="235" /><!-- ., ,, bir, bu, ?, ben, et, çok, I, a, değil, ol, yap, you, şey -->
+  <forms unique="275" /><!-- ., ,, bir, ?, bu, çok, a, i, !, biraz, değil, my, yani, şey, Ben -->
+  <fusions unique="0" /><!--  -->
+  <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
+  <tags unique="14">
+    <tag name="ADJ">28</tag><!-- karşı, acceptable, clear, crazy, emin, fena, fine, funny, geniş, harsh -->
+    <tag name="ADP">11</tag><!-- for, of, about, in, için, kadar, on, to, with -->
+    <tag name="ADV">31</tag><!-- çok, biraz, kinda, literally, artık, en, gayet, hiç, how, just -->
+    <tag name="AUX">10</tag><!-- değil, mi, be, do, would -->
+    <tag name="CCONJ">12</tag><!-- yani, ama, and, but, da, de, ve -->
+    <tag name="DET">25</tag><!-- bir, a, bu, my, all, hangi, hiçbir, o, other, the -->
+    <tag name="NOUN">78</tag><!-- şey, hoca, ders, şarkı, aile, akıl, akşam, ara, aspect, ayak -->
+    <tag name="NUM">3</tag><!-- iki, bir -->
+    <tag name="PART">5</tag><!-- not, ya, to -->
+    <tag name="PRON">37</tag><!-- ben, bu, I, you, it, o, this, bir, biri, bura -->
+    <tag name="PROPN">11</tag><!-- Allah, Cem, Ceren, Cumartesi, Daktilo, Didar, KK, Kazım, Koyuncu, Yılmaz -->
+    <tag name="PUNCT">62</tag><!-- ., ,, ?, ! -->
+    <tag name="SCONJ">6</tag><!-- because, diye, gibi, ki, like, çünkü -->
+    <tag name="VERB">74</tag><!-- et, ol, yap, gel, al, de, eyle, git, go, görüş -->
+  </tags>
+  <!-- Statistics of features and values. The comments show the most frequent word forms. -->
+  <feats unique="46">
+    <feat name="Aspect" value="Hab" upos="VERB">1</feat><!-- düşünmezsen -->
+    <feat name="Aspect" value="Imp" upos="VERB">4</feat><!-- alabiliriz, görüşürüz, istemiyormuş, olmayız -->
+    <feat name="Aspect" value="Perf" upos="VERB">18</feat><!-- ettim, geldi, Soggyleşmiş, Yemişsin, attın, dedi, diyeceğim, drop-bylayacağım, duyuldu, düşürmedim -->
+    <feat name="Aspect" value="Prog" upos="VERB">8</feat><!-- bilmiyorum, değinemiyoruz, ediyorum, hissediyor, istemiyorum, turn-offluyor, çalışıyor, çıkıyoruz -->
+    <feat name="Aspect" value="Prosp" upos="VERB">1</feat><!-- edecek -->
+    <feat name="Case" value="Abl" upos="ADV,NOUN,VERB">4</feat><!-- machinelerden, vermeden, çıkmadan, önceden -->
+    <feat name="Case" value="Acc" upos="NOUN,PRON">13</feat><!-- beni, it, Bunu, boynumu, dersini, hocayı, onu, seni, sitesini, yolu -->
+    <feat name="Case" value="Dat" upos="NOUN,PRON,PROPN,VERB">12</feat><!-- bana, Aklıma, Derse, KK'ya, aspectlere, etmeye, ettiğine, meşgule, sormaya, üstüne -->
+    <feat name="Case" value="Equ" upos="PRON">2</feat><!-- bence -->
+    <feat name="Case" value="Gen" upos="NOUN,PRON">5</feat><!-- Birinin, Bunun, Dünyanın, Hoca'nın, Okulun -->
+    <feat name="Case" value="Ins" upos="NOUN">3</feat><!-- itemıyla, metroyla, sevgilimle -->
+    <feat name="Case" value="Loc" upos="NOUN,PRON">8</feat><!-- Bunda, Kafamda, arada, burada, gözlemede, nerede, tanımımda, terimlerde -->
+    <feat name="Case" value="Nom" upos="NOUN,PRON,PROPN,VERB">60</feat><!-- bu, i, şey, Ben, u, yapmak, Allah, Canım, Cem, Cumartesi -->
+    <feat name="Evident" value="Fh" upos="VERB">1</feat><!-- duyuldu -->
+    <feat name="Evident" value="Nfh" upos="VERB">4</feat><!-- Soggyleşmiş, Yemişsin, istemiyormuş, katletmişsin -->
+    <feat name="ExtPos" value="ADJ" upos="ADJ">1</feat><!-- karşı -->
+    <feat name="ExtPos" value="ADV" upos="ADP,DET">2</feat><!-- All, Of -->
+    <feat name="Gender" value="Neut" upos="PRON">2</feat><!-- it -->
+    <feat name="Mood" value="Cnd" upos="VERB">4</feat><!-- başlasam, düşünmezsen, söyleseydin, yapsa -->
+    <feat name="Mood" value="Imp" upos="VERB">5</feat><!-- Gel, Go, Let's, eyle, yapsana -->
+    <feat name="Mood" value="Ind" upos="AUX">1</feat><!-- were -->
+    <feat name="Mood" value="Opt" upos="VERB">1</feat><!-- eyleyelim -->
+    <feat name="Mood" value="Pot" upos="VERB">1</feat><!-- alabiliriz -->
+    <feat name="Number" value="Plur" upos="AUX,NOUN,PRON,VERB">17</feat><!-- Guys, Sizce, alabiliriz, aspectlere, decorations, değiliz, değinemiyoruz, eyleyelim, gideceğiz, görüşürüz -->
+    <feat name="Number" value="Sing" upos="ADJ,AUX,NOUN,PRON,PROPN,VERB">138</feat><!-- bu, değil, i, şey, Ben, bana, bence, beni, ettim, geldi -->
+    <feat name="Number[psor]" value="Sing" upos="NOUN,VERB">18</feat><!-- Aklıma, Canım, Kafamda, ayağın, boynumu, dersini, ettiğine, gerçeği, olacağı, sevgilimle -->
+    <feat name="NumType" value="Card" upos="NUM">3</feat><!-- iki, bir -->
+    <feat name="Person" value="1" upos="ADJ,AUX,NOUN,PRON,VERB">35</feat><!-- i, Ben, bana, bence, beni, ettim, Let's, alabiliriz, başlasam, bilmiyorum -->
+    <feat name="Person" value="2" upos="AUX,PRON,VERB">16</feat><!-- u, Gel, Go, Sizce, Yemişsin, attın, düşünmezsen, eyle, katletmişsin, misin -->
+    <feat name="Person" value="3" upos="AUX,NOUN,PRON,PROPN,VERB">94</feat><!-- bu, değil, şey, geldi, it, Aklıma, Allah, Birinin, Bunda, Bunu -->
+    <feat name="Person[psor]" value="1" upos="NOUN">7</feat><!-- Aklıma, Canım, Kafamda, boynumu, sevgilimle, tanımımda, zorundayım -->
+    <feat name="Person[psor]" value="2" upos="NOUN">1</feat><!-- ayağın -->
+    <feat name="Person[psor]" value="3" upos="NOUN,VERB">10</feat><!-- dersini, ettiğine, gerçeği, olacağı, sitesini, tokası, üslubu, üstüne, üzerine, şarkısı -->
+    <feat name="Polarity" value="Neg" upos="AUX,PART,VERB">14</feat><!-- değil, not, bilmiyorum, değiliz, değinemiyoruz, düşünmezsen, düşürmedim, istemiyormuş, istemiyorum, olmayız -->
+    <feat name="Polarity" value="Pos" upos="VERB">47</feat><!-- ettim, geldi, yapmak, Gel, Soggyleşmiş, Yemişsin, alabiliriz, alan, attın, başlasam -->
+    <feat name="PronType" value="Dem" upos="PRON">1</feat><!-- o -->
+    <feat name="Tense" value="Fut" upos="VERB">7</feat><!-- diyeceğim, drop-bylayacağım, edecek, gideceğiz, olacağı, uyuyacağız, yürüyecek -->
+    <feat name="Tense" value="Past" upos="AUX,VERB">20</feat><!-- ettim, geldi, Soggyleşmiş, Yemişsin, attın, dedi, duyuldu, düşürmedim, ettiğine, gönderdi -->
+    <feat name="Tense" value="Pres" upos="AUX,VERB">30</feat><!-- değil, Depends, Seems, alabiliriz, alan, bilmiyorum, bitching, coming, değiliz, değinemiyoruz -->
+    <feat name="Typo" value="Yes" upos="ADV">1</feat><!-- know -->
+    <feat name="VerbForm" value="Conv" upos="VERB">2</feat><!-- vermeden, çıkmadan -->
+    <feat name="VerbForm" value="Fin" upos="AUX,VERB">5</feat><!-- Go, Let's, own, thought, were -->
+    <feat name="VerbForm" value="Inf" upos="VERB">1</feat><!-- go -->
+    <feat name="VerbForm" value="Part" upos="VERB">12</feat><!-- alan, bitching, coming, ettiğine, giden, olacağı, olduğunuz, spinning, supposed, texting -->
+    <feat name="VerbForm" value="Vnoun" upos="VERB">5</feat><!-- etmeye, flörtleşmek, görüşmek, sormaya, yapmak -->
+    <feat name="Voice" value="Pass" upos="VERB">1</feat><!-- duyuldu -->
+  </feats>
+  <!-- Statistics of universal dependency relations. -->
+  <deps unique="24">
+    <dep name="acl">4</dep>
+    <dep name="advcl">8</dep>
+    <dep name="advmod">35</dep>
+    <dep name="amod">13</dep>
+    <dep name="aux">10</dep>
+    <dep name="case">8</dep>
+    <dep name="cc">5</dep>
+    <dep name="ccomp">5</dep>
+    <dep name="compound">21</dep>
+    <dep name="conj">7</dep>
+    <dep name="det">23</dep>
+    <dep name="discourse">18</dep>
+    <dep name="fixed">5</dep>
+    <dep name="flat">3</dep>
+    <dep name="mark">7</dep>
+    <dep name="nmod">10</dep>
+    <dep name="nsubj">32</dep>
+    <dep name="nummod">3</dep>
+    <dep name="obj">24</dep>
+    <dep name="obl">25</dep>
+    <dep name="parataxis">8</dep>
+    <dep name="punct">62</dep>
+    <dep name="root">51</dep>
+    <dep name="xcomp">6</dep>
+  </deps>
+</treebank>
