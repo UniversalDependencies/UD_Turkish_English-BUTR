@@ -40,6 +40,7 @@ This work was conducted as part of a research project at Boğaziçi University, 
 Data available since: UD v2.16
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: spoken
 Lemmas: manual native
 UPOS: manual native
