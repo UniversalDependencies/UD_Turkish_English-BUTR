@@ -18,7 +18,13 @@ The treebank captures three main contact phenomena:
 * **Lexical adaptation (LA):** English words integrated with Turkish morphology, such as "drop-bylayacağım" ("I will drop by") or "overthinkledim" ("I overthought").
 * **Loan translation (LT):** Calques of English expressions using Turkish lexemes, such as "toplantı almak" (loan translation of "to get a meeting").
 
-Each sentence is annotated with a `# type` comment indicating the primary contact phenomenon and a `# text_en` comment providing an English translation. Token-level language identification is provided via `Lang=tr` / `Lang=en` in the MISC column. Morpheme-level code-switching boundaries are marked with `CSID=MIXED` and `CSPoint` features.
+Each sentence is annotated with the following comment-level metadata:
+
+* `# type` — Primary contact phenomenon (CS, LA, or LT)
+* `# text_en` — English translation
+* `# medium` — Communication medium (Written or Spoken), where known
+
+Token-level language identification is provided via `Lang=tr` / `Lang=en` in the MISC column. Morpheme-level code-switching boundaries are marked with `CSID=MIXED` and `CSPoint` features.
 
 This treebank provides a standardized resource for analyzing syntactic patterns in Turkish-English code-switching, facilitating further research in computational linguistics.
 
