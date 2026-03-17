@@ -67,6 +67,6 @@ Features: manual native
 Relations: manual native
 Contributors: Akkurt, Furkan; Teker, Nursena; Binici, Helin; Demir, Ahmet; Sampanis, Konstantinos
 Contributing: here
-Contact: furkanakkurt7242@icloud.com
+Contact: furkan.akkurt@bogazici.edu.tr
 ===============================================================================
 </pre>
