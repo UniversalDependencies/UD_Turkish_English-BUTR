@@ -1,16 +1,16 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Turkish_English-BUTR:
-commit 1c28f911750f1680ceb56ae48a73d0dab65fb0d0
-Merge: 21b84c0 2246422
+commit d058742cbc71a251bb2e152c3225efff05b7545b
+Merge: 1334d36 878358f
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'qti_butr'
 Language code (from CoNLL-U file name) = 'qti'
 Found the following data files: qti_butr-ud-test.conllu
-Size: counted 393 of 393 words (nodes).
+Size: counted 441 of 441 words (nodes).
 Size: min(0, log((N/1000)**2)) = 0.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Did not find more than 10000 training words.
@@ -19,36 +19,21 @@ Split: Did not find at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 1.
 Universal POS tags: 14 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 1.
-Features: 192 out of 393 total words have one or more features.
+Features: 250 out of 441 total words have one or more features.
 Features: source of annotation (from README) factor is 1.
 Universal relations: 24 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
-Genres: found 1 out of 18 known.
+Genres: found 2 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang qti --max-err=10 UD_Turkish_English-BUTR/qti_butr-ud-test.conllu
-[Line 15 Sent 2]: [L3 Warning pron-det-without-prontype] The word 'Bunu' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 20 Sent 2]: [L3 Warning pron-det-without-prontype] The word 'my' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 25 Sent 2]: [L3 Warning pron-det-without-prontype] The word 'bir' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 32 Sent 3]: [L3 Warning pron-det-without-prontype] The word 'Bunun' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 34 Sent 3]: [L3 Warning pron-det-without-prontype] The word 'bir' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 44 Sent 4]: [L3 Warning pron-det-without-prontype] The word 'bana' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 58 Sent 6]: [L3 Warning pron-det-without-prontype] The word 'Bunda' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 61 Sent 6]: [L3 Warning pron-det-without-prontype] The word 'the' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 73 Sent 7]: [L3 Warning pron-det-without-prontype] The word 'bir' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 83 Sent 8]: [L3 Warning pron-det-without-prontype] The word 'Bir' is tagged 'DET' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
-[Line 565 Sent 50]: [L3 Syntax too-many-objects] Multiple direct objects [6, 14] ('tokası', 'mendil') under the predicate 'own'.
-Syntax errors: 1
-Warnings: 63
-*** FAILED *** with 1 errors
-Exit code: 1
-Validity: 0.01
-(weight=0.111111111111111) * (score{features}=0.5) = 0.0555555555555556
-(weight=0.111111111111111) * (score{genres}=0.0555555555555556) = 0.00617283950617284
+*** PASSED ***
+Validity: 1
+(weight=0.111111111111111) * (score{features}=1) = 0.111111111111111
+(weight=0.111111111111111) * (score{genres}=0.111111111111111) = 0.0123456790123457
 (weight=0.111111111111111) * (score{lemmas}=1) = 0.111111111111111
 (weight=0.37037037037037) * (score{size}=0) = 0
 (weight=0.0740740740740741) * (score{split}=0.01) = 0.000740740740740741
 (weight=0.111111111111111) * (score{tags}=0.823529411764706) = 0.0915032679738562
 (weight=0.111111111111111) * (score{udeprels}=0.648648648648649) = 0.0720720720720721
-(TOTAL score=0.337155586959508) * (availability=1) * (validity=0.01) = 0.00337155586959508
-STARS = 0
-UD_Turkish_English-BUTR	0.00337155586959508	0
+(TOTAL score=0.398883982021237) * (availability=1) * (validity=1) = 0.398883982021237
+STARS = 2
+UD_Turkish_English-BUTR	0.398883982021237	2
