@@ -12,7 +12,21 @@ Qualitative analysis of the treebank reveals distinctive code-switching patterns
 
 The Universal Dependencies analysis demonstrates three key syntactic patterns in Boğaziçi Turkish: preservation of Turkish syntactic structure with English lexical insertions, morphological adaptation of English verbs, and code-switching at specific syntactic boundaries.
 
-This treebank provides a standardized resource for analyzing syntactic patterns in Turkish-English code-switching, facilitating further research in computational linguistics. While the initial release contains a modest number of representative sentences, the resource will hopefully be expanded in future releases.
+The treebank captures three main contact phenomena:
+
+* **Code-switching (CS):** Full English phrases or clauses embedded in Turkish discourse, both intrasentential and intersentential.
+* **Lexical adaptation (LA):** English words integrated with Turkish morphology, such as "drop-bylayacağım" ("I will drop by") or "overthinkledim" ("I overthought").
+* **Loan translation (LT):** Calques of English expressions using Turkish lexemes, such as "toplantı almak" (loan translation of "to get a meeting").
+
+Each sentence is annotated with the following comment-level metadata:
+
+* `# type` — Primary contact phenomenon (CS, LA, or LT)
+* `# text_en` — English translation
+* `# medium` — Communication medium (Written or Spoken), where known
+
+Token-level language identification is provided via `Lang=tr` / `Lang=en` in the MISC column. Morpheme-level code-switching boundaries are marked with `CSID=MIXED` and `CSPoint` features.
+
+This treebank provides a standardized resource for analyzing syntactic patterns in Turkish-English code-switching, facilitating further research in computational linguistics.
 
 # Acknowledgments
 
@@ -32,6 +46,16 @@ This work was conducted as part of a research project at Boğaziçi University, 
 
 # Changelog
 
+* 2026-05-15 v2.18
+  * Added 7 new sentences (52–58), expanding the treebank to 58 sentences.
+  * Added English translations (`# text_en`) to all sentences.
+  * Added missing PronType features to all PRON and DET tokens.
+  * Added Polarity=Neg/Pos to existential predicates (yok/var), aligning with UD_Turkish-GB and UD_Turkish-TueCL conventions.
+  * Fixed punct head attachment errors (sents 1, 35).
+  * Fixed Case=Nom → Case=Equ for equative pronouns (sent 9).
+  * Fixed deprel errors: nmod → amod for participial adjectives (sent 45), obj → conj for coordinated objects (sent 50).
+  * Added Mood=Ind to finite English verbs (sents 50, 51).
+  * Fixed ADP deprel: compound → case for "on" in PP constructions (sent 6).
 * 2025-05-15 v2.16
   * Initial release in Universal Dependencies.
 
@@ -41,7 +65,7 @@ Data available since: UD v2.16
 License: CC BY-SA 4.0
 Includes text: yes
 Parallel: no
-Genre: spoken
+Genre: spoken social
 Lemmas: manual native
 UPOS: manual native
 XPOS: not available
@@ -49,6 +73,6 @@ Features: manual native
 Relations: manual native
 Contributors: Akkurt, Furkan; Teker, Nursena; Binici, Helin; Demir, Ahmet; Sampanis, Konstantinos
 Contributing: here
-Contact: furkanakkurt7242@icloud.com
+Contact: furkan.akkurt@bogazici.edu.tr
 ===============================================================================
 </pre>
